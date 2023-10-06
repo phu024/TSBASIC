@@ -7,11 +7,19 @@ type user = {
 } 
 
 
-const newUser : user = {
+const userFirst : user = {
     name: "John Doe",
     age: 28,
     isMarried: false,
     hubbies: ["Playing Football", "Watching Movies"]
 }
 
-console.log(newUser);
+console.log(userFirst);
+
+const userSecond : user = {
+    name: "John Doe",
+    age: 28,
+    isMarried: false,
+    hubbies: ["Playing Football", "Watching Movies"],
+    gender : "Male"
+}
