@@ -3,6 +3,7 @@ type user = {
     age: number;
     isMarried: boolean;
     hubbies: string[];
+    gender ?: string;
 } 
 
 
