@@ -1,5 +1,8 @@
-// const userName:string = "John";
-let userName = "John"
-// userName = 56; // hello.ts:3:1 - error TS2322: Type 'number' is not assignable to type 'string'.
+let userName: string;
+let age: number;
 
-const newUser = userName;
+userName = "John Doe";
+age = 14;
+
+console.log(userName);
+

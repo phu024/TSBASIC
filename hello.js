@@ -1,3 +1,6 @@
-// const userName:string = "John";
-var userName = "John";
-userName = 56;
+var userName;
+var age;
+userName = "John Doe";
+age = 14;
+userName.toLocaleUpperCase;
+console.log(userName);
