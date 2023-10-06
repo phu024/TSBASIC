@@ -1,22 +1,16 @@
-let user: {
-    name: string,
-    age: number,
-    isMarried: boolean,
-    hubbies: string[]
-} = {
-    name: "Jarry",
-    age: 22,
-    isMarried: false,
-    hubbies: ["Playing Football", "Watching Movies"]
-}
+type user = {
+    name: string;
+    age: number;
+    isMarried: boolean;
+    hubbies: string[];
+} 
 
-console.log(user);
 
-user = {
+const newUser : user = {
     name: "John Doe",
     age: 28,
     isMarried: false,
     hubbies: ["Playing Football", "Watching Movies"]
 }
 
-console.log(user);
+console.log(newUser);
