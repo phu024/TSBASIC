@@ -1,5 +1,5 @@
-const calculateMyAge = (birthYear:number) => {
-    return 2023-birthYear;
+const calculateMyAge = (birthYear:number) :number => {
+    return new Date(Date.now()).getFullYear() - birthYear;
 }
 
 const myAge : number = calculateMyAge(2000);
